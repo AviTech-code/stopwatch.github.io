@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Varela+Round&display=swap');
+
+body {
+    background: #ff6e7f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bfe9ff, #ff6e7f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Main div container */
+.main-container {
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+/* The clock container */
+.container {
+    width: 70%;
+    height: 70%;
+    background: #77A1D3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #E684AE, #79CBCA, #77A1D3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #E684AE, #79CBCA, #77A1D3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 50px auto;
+    display: grid;
+    justify-items: center;
+}
+
+/* The timer container */
+
+.timer {
+    width: 50%;
+    height: 25%;
+    margin-top: 21%;
+    margin-left: 2%;
+}
+
+/* Buttons container */
+.buttons {
+    width: 82%;
+    display: flex;
+    height: 30%;
+    justify-content: space-evenly;
+    margin-bottom: 21%
+}
+
+/* Timer font family */
+.timing {
+    font-size: xxx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*  Styling buttons */
+.btn {
+    font-family: 'Pangolin', cursive;
+    /* // font-family: 'Varela Round', sans-serif; */
+    border: 1px solid black;
+    border-radius: 32px;
+    margin: 2px;
+    background-color: transparent;
+    background: #314755;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: bold;
+    height: 100%;
+    width: 21%;
+    font-size: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn :hover {
+
+    background-color: #ffdeda;
+}
